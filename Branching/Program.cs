@@ -18,7 +18,9 @@ namespace Branching
                 do
                 {
                     Console.WriteLine($"3*3 = " + 3 * 3);
+
                 } while (i == 4);
+                
 
 
                 Console.WriteLine(i);
