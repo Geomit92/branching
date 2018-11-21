@@ -10,9 +10,17 @@ namespace Branching
     {
         static void Main()
         {
+            
+
             for (int i = 0; i < 5; i++) 
             {
                 Console.WriteLine("Test for Folk with Kyr and This");
+                do
+                {
+                    Console.WriteLine($"3*3 = " + 3 * 3);
+                } while (i == 4);
+
+
                 Console.WriteLine(i);
 
             }
